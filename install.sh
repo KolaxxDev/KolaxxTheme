@@ -60,11 +60,11 @@ restoreBackUp(){
     yarn build:production
     sudo php artisan optimize:clear
 }
-echo "Copyright (c) 2023 Kolaxx | goodlaxx.fr"
+echo "Copyright (c) 2023 Kolaxx | kolaxx.fr"
 echo "Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier"
 echo ""
-echo "Discord: https://goodlaxx.fr/discord"
-echo "Website: https://goodlaxx.fr"
+echo "Discord: https://kolaxx.fr/discord"
+echo "Website: https://kolaxx.fr"
 echo ""
 echo "[1] Installer le thème"
 echo "[2] Restaurer la sauvegarde"
