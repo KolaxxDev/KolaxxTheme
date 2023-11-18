@@ -21,7 +21,7 @@ installTheme(){
     mv KolaxxTheme.css /var/www/pterodactyl/resources/scripts/KolaxxTheme.css
     cd /var/www/pterodactyl
 
-    curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
     apt update
     apt install -y nodejs
 
@@ -63,7 +63,6 @@ restoreBackUp(){
 echo "Copyright (c) 2023 Kolaxx | kolaxx.fr"
 echo "Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier"
 echo ""
-echo "Discord: https://kolaxx.fr/discord"
 echo "Website: https://kolaxx.fr"
 echo ""
 echo "[1] Installer le thème"
